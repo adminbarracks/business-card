@@ -43,7 +43,7 @@ const styles = {
   icons: {
     display: "flex",
     justifyContent: "center",
-    gap: "10px",
+    gap: "50px",
   },
   iconLink: {
     fontSize: "80px",
