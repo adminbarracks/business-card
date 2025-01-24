@@ -29,7 +29,7 @@ const styles = {
   subtitle: {
     fontSize: "16px",
     color: "#fff",
-    marginBottom: "40px", // Adds space below the subtitle
+    marginBottom: "80px", // Adds space below the subtitle
   },
 };
 
