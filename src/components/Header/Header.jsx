@@ -17,9 +17,6 @@ const styles = {
     textAlign: "center",
     marginBottom: "20px",
   },
-  p{
-  padding-bottom:"50px"
-  },
   logo: {
     width: "300px",
     borderRadius: "50%",
@@ -32,6 +29,7 @@ const styles = {
   subtitle: {
     fontSize: "16px",
     color: "#fff",
+    marginBottom: "40px", // Adds space below the subtitle
   },
 };
 
