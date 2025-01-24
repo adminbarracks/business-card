@@ -1,0 +1,80 @@
+/* Apply background image with gradient to the body */
+body {
+    margin: 0;
+    padding: 0;
+    background: 
+      linear-gradient(135deg, rgba(231, 77, 60, 0.8), rgba(244, 244, 249, 0.9)), /* Gradient overlay */
+      url("src/components/img/logo.png") no-repeat center center; /* Logo background */
+    background-size: cover, contain; /* Gradient covers the viewport, logo fits */
+    background-attachment: fixed; /* Keeps the background fixed during scroll */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif; /* Ensure consistent typography */
+    color: #f4f4f9; /* Light text color for contrast */
+  }
+  
+  /* General container styling */
+  .app-container {
+    max-width: 90%; /* Adjusted for better responsiveness */
+    margin: 20px auto;
+    padding: 30px; /* Added more padding for content spacing */
+    background: rgba(37, 35, 35, 0.7); /* Semi-transparent dark background */
+    border-radius: 15px; /* Increased border-radius for smoother edges */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* More pronounced shadow for depth */
+    color: #f4f4f9; /* Light text color for contrast */
+    border: 1px solid rgba(231, 77, 60, 0.2); /* Subtle red border */
+    backdrop-filter: blur(10px); /* Add blur effect for a modern look */
+  }
+  
+  /* Text styling inside square boxes */
+  .square-box {
+    border: 2px solid rgba(231, 76, 60, 0.8); /* Bold red border */
+    padding: 15px 20px; /* Increased padding for better spacing */
+    margin: 15px 0; /* Adjusted margin for better layout */
+    background-color: rgba(255, 255, 255, 0.85); /* Semi-transparent white background */
+    text-align: center; /* Center-align text */
+    display: inline-block; /* Ensure box resizes based on content */
+    font-weight: bold;
+    color: rgba(231, 76, 60, 0.9); /* Vibrant red text color */
+    font-size: 18px; /* Slightly larger font size */
+    border-radius: 10px; /* Smooth rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Subtle shadow for elegance */
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .square-box:hover {
+    transform: scale(1.08); /* Larger scaling on hover */
+    background-color: rgba(231, 76, 60, 0.1); /* Light red tint on hover */
+    color: rgba(231, 76, 60, 1); /* Fully vibrant red text on hover */
+  }
+  
+  /* Links inside square boxes */
+  .square-box a {
+    text-decoration: none; /* Remove underline for links */
+    color: inherit; /* Match the box's text color */
+  }
+  
+  .square-box a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
+  /* Add smooth transitions to links */
+  .square-box a:hover {
+    color: rgba(192, 57, 43, 1); /* Darker red text on hover */
+    text-decoration: underline; /* Underline the link */
+  }
+  
+  /* Responsive design for small screens */
+  @media (max-width: 768px) {
+    .app-container {
+      padding: 20px;
+    }
+  
+    .square-box {
+      font-size: 16px; /* Slightly smaller text */
+      padding: 10px 15px;
+    }
+  }
+  

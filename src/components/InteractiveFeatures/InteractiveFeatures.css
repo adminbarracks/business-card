@@ -1,0 +1,77 @@
+/* Section styling */
+.interactive-features-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: linear-gradient(135deg, rgba(231, 77, 60, 0.1), rgba(44, 62, 80, 0.1)); /* Subtle gradient background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for the section */
+  }
+  
+  /* Heading styling */
+  .interactive-features-heading {
+    font-size: 24px;
+    color: #fff; /* Dark blue-gray for the heading */
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase; /* Capitalize all letters for a professional look */
+    letter-spacing: 1.5px; /* Add spacing between letters */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle text shadow */
+  }
+  
+  /* List styling */
+  .interactive-features-list {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap if they overflow */
+    gap: 20px; /* Add space between boxes */
+    justify-content: center; /* Center the boxes */
+    align-items: center; /* Align items vertically in the center */
+  }
+  
+  /* Square box styling */
+  .square-box {
+    border: 2px solid rgba(231, 76, 60, 0.8); /* Semi-transparent red border */
+    padding: 20px 25px; /* Increased padding for better spacing */
+    background-color: #ffffff; /* White background */
+    text-align: center; /* Center-align text */
+    border-radius: 10px; /* Smooth rounded corners */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Enhanced shadow for depth */
+    font-weight: bold; /* Bold text */
+    color: #e74c3c; /* Vibrant red text color */
+    font-size: 18px; /* Slightly larger font size for better readability */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; /* Smooth transitions */
+    cursor: pointer;
+  }
+  
+  .square-box:hover {
+    transform: translateY(-5px) scale(1.05); /* Lift and enlarge the box on hover */
+    background-color: rgba(231, 76, 60, 0.1); /* Light red tint on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+  }
+  
+  /* Links inside the square box */
+  .square-box a {
+    text-decoration: none; /* Remove underline for links */
+    color: inherit; /* Match the box's text color */
+  }
+  
+  .square-box a:hover {
+    color: #c0392b; /* Darker red on hover */
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .interactive-features-list {
+      gap: 15px; /* Reduce space between boxes for smaller screens */
+    }
+  
+    .square-box {
+      font-size: 16px; /* Adjust font size for smaller screens */
+      padding: 15px 20px; /* Reduce padding */
+    }
+  }
+  
