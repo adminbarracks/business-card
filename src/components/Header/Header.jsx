@@ -18,7 +18,7 @@ const styles = {
     marginBottom: "20px",
   },
   p{
-  padding-bottom:"20px"
+  padding-bottom:"50px"
   },
   logo: {
     width: "300px",
