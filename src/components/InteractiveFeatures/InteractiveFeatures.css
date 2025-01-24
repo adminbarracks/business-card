@@ -34,14 +34,14 @@
   /* Square box styling */
   .square-box {
     border: 2px solid rgba(231, 76, 60, 0.8); /* Semi-transparent red border */
-    padding: 20px 25px; /* Increased padding for better spacing */
+    padding: 40px 45px; /* Increased padding for better spacing */
     background-color: #ffffff; /* White background */
     text-align: center; /* Center-align text */
-    border-radius: 10px; /* Smooth rounded corners */
+    border-radius: 20px; /* Smooth rounded corners */
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Enhanced shadow for depth */
     font-weight: bold; /* Bold text */
     color: #e74c3c; /* Vibrant red text color */
-    font-size: 18px; /* Slightly larger font size for better readability */
+    font-size: 38px; /* Slightly larger font size for better readability */
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; /* Smooth transitions */
     cursor: pointer;
   }
