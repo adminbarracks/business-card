@@ -18,7 +18,7 @@ const styles = {
     marginBottom: "20px",
   },
   logo: {
-    width: "100px",
+    width: "300px",
     borderRadius: "50%",
   },
   title: {
