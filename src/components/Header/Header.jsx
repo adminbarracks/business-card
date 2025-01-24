@@ -17,6 +17,9 @@ const styles = {
     textAlign: "center",
     marginBottom: "20px",
   },
+  p{
+  padding-bottom:"20px"
+  },
   logo: {
     width: "300px",
     borderRadius: "50%",
