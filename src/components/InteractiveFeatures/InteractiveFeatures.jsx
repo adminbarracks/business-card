@@ -9,7 +9,7 @@ const InteractiveFeatures = () => {
       text: "Explore Happiness Menu",
     },
     {
-      href: "https://drive.google.com/file/d/1HE6P8VipcvyPyeUodfZ-6T4gRLtOrA_V/view",
+      href: "https://drive.google.com/drive/folders/1LFqBKJxPP5RDhaziM--fcUqJlhNeo5w6?usp=drive_link",
       text: "Watch Direction Video",
     },
     {
